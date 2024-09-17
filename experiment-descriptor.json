@@ -1,0 +1,79 @@
+{
+  "unit-type": "lu",
+  "label": "",
+  "basedir": ".",
+  "LaTeXinMD": false,
+  "units": [
+    {
+      "unit-type": "aim"
+    },
+    
+    {
+      "target": "theory.html",
+      "source": "theory.md",
+      "label": "Theory",
+      "unit-type": "task",
+      "content-type": "text"
+    },
+   
+    {
+      "target": "pretest.html",
+      "source": "pretest.json",
+      "label": "Pretest",
+      "unit-type": "task",
+      "content-type": "assesment"
+    },
+    {
+      "target": "procedure.html",
+      "source": "procedure.md",
+      "label": "Procedure",
+      "unit-type": "task",
+      "content-type": "text"
+    },
+    {
+      "unit-type": "lu",
+      "label": "Simulation ",
+      "basedir": "simulation",
+      "units": [
+      
+        {
+          "unit-type": "task",
+          "label": "3 bit Binary Weighted Resistor",
+          "content-type": "simulation",
+          "source": "simulation/weightedres3bit.html",
+          "target": "weightedres3bit.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "4 bit Binary Weighted Resistor",
+          "content-type": "simulation",
+          "source": "simulation/weightedres4bit.html",
+          "target": "weightedres4bit.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "4 bit Binary Ladder",
+          "content-type": "simulation",
+          "source": "simulation/weightedladder4bit.html",
+          "target": "weightedladder4bit.html"
+        }
+
+      ]
+    },
+    
+    {
+      "target": "posttest.html",
+      "source": "posttest.json",
+      "label": "Posttest",
+      "unit-type": "task",
+      "content-type": "assesment"
+    },
+    {
+      "target": "references.html",
+      "source": "references.md",
+      "label": "References",
+      "unit-type": "task",
+      "content-type": "text"
+    }
+  ]
+}
