@@ -27,7 +27,7 @@ function sliderChange() {
 				image2 = document.getElementById('b2_2'); //b2
 				image3 = document.getElementById('b3_3'); //MSB b3
 				
-				 if (image3.src.match("off") && image2.src.match("off") && image1.src.match("off") && image0.src.match("off")) {
+				 if (image3.getAttribute('src')=="./images/off.png" && image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/off.png" && image0.getAttribute('src')=="./images/off.png") {
 					  b3_3=0;
 					  b2_2=0;
 					  b1_1=0;
@@ -59,7 +59,7 @@ function textChangerf() {
 
 function changeImageb3_3() {
   image3 = document.getElementById('b3_3');
-  if (image3.src.match("off")) {
+  if (image3.getAttribute('src')=="./images/off.png") {
     image3.src = "./images/on.png";
 	 b3_3=1;
   } else {
@@ -72,7 +72,7 @@ function changeImageb3_3() {
 
 function changeImageb2_2() {
    image2 = document.getElementById('b2_2');
-  if (image2.src.match("off")) {
+  if (image2.getAttribute('src')=="./images/off.png") {
     image2.src = "./images/on.png";
 	 b2_2=1;
   } else {
@@ -84,7 +84,7 @@ function changeImageb2_2() {
 
 function changeImageb1_1() {
    image1 = document.getElementById('b1_1');  
-  if (image1.src.match("off")) {
+  if (image1.getAttribute('src')=="./images/off.png") {
     image1.src = "./images/on.png";
 	 b1_1=1;
 
@@ -97,7 +97,7 @@ function changeImageb1_1() {
 
 function changeImageb0_0() {
    image0 = document.getElementById('b0_0'); 
-  if (image0.src.match("off")) {
+  if (image0.getAttribute('src')=="./images/off.png") {
     image0.src = "./images/on.png";
 	 b0_0=1;
   } else {
@@ -118,7 +118,7 @@ function switchchange(){
 	image2 = document.getElementById('b2_2'); //b2
 	image3 = document.getElementById('b3_3'); //MSB b3
 	
-if(image3.src.match("off") &&  image2.src.match("off") && image1.src.match("off") && image0.src.match("off"))
+if(image3.getAttribute('src')=="./images/off.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/off.png" && image0.getAttribute('src')=="./images/off.png")
 { //0
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
 		//resln=(rf/r1)*(vref*b0_0/8);//weighting of LSB  
@@ -129,7 +129,7 @@ if(image3.src.match("off") &&  image2.src.match("off") && image1.src.match("off"
 	 document.getElementById("binaryinp").value = '0000';//0
 	  binarytodecimal();
 }
-if(image3.src.match("off") &&  image2.src.match("off") && image1.src.match("off") && image0.src.match("on"))
+if(image3.getAttribute('src')=="./images/off.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/off.png" && image0.getAttribute('src')=="./images/on.png")
 {//1
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
 		//resln=(rf/r1)*(vref*b0_0/8);//weighting of LSB   
@@ -140,7 +140,7 @@ if(image3.src.match("off") &&  image2.src.match("off") && image1.src.match("off"
 	 document.getElementById("binaryinp").value = '0001';//1
 	  binarytodecimal();
 }
-if(image3.src.match("off") &&  image2.src.match("off") && image1.src.match("on") && image0.src.match("off"))
+if(image3.getAttribute('src')=="./images/off.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/off.png")
 {//2
 	vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
 		//resln=(rf/r1)*(vref*b0_0/8);//weighting of LSB   
@@ -151,7 +151,7 @@ resln=(vref/16);//weighting of LSB
 	 document.getElementById("binaryinp").value = '0010';//2
 	  binarytodecimal();
 }
-if(image3.src.match("off") &&  image2.src.match("off") && image1.src.match("on") && image0.src.match("on"))
+if(image3.getAttribute('src')=="./images/off.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/on.png")
 {//3
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
 		//resln=(rf/r1)*(vref*b0_0/8);//weighting of LSB   
@@ -162,7 +162,7 @@ if(image3.src.match("off") &&  image2.src.match("off") && image1.src.match("on")
 document.getElementById("binaryinp").value = '0011';	//3 
  binarytodecimal();
 }
-if(image3.src.match("off") &&  image2.src.match("on") && image1.src.match("off") && image0.src.match("off"))
+if(image3.getAttribute('src')=="./images/off.png" &&  image2.getAttribute('src')=="./images/on.png" && image1.getAttribute('src')=="./images/off.png" && image0.getAttribute('src')=="./images/off.png")
 {//4
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
 		//resln=(rf/r1)*(vref*b0_0/8);//weighting of LSB     
@@ -174,7 +174,7 @@ if(image3.src.match("off") &&  image2.src.match("on") && image1.src.match("off")
 	  binarytodecimal();
 }
 
-if(image3.src.match("off") &&  image2.src.match("on") && image1.src.match("off") && image0.src.match("on"))
+if(image3.getAttribute('src')=="./images/off.png" &&  image2.getAttribute('src')=="./images/on.png" && image1.getAttribute('src')=="./images/off.png" && image0.getAttribute('src')=="./images/on.png")
 {//5
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
 		//resln=(rf/r1)*(vref*b0_0/8);//weighting of LSB    
@@ -185,7 +185,7 @@ if(image3.src.match("off") &&  image2.src.match("on") && image1.src.match("off")
 	 document.getElementById("binaryinp").value = '0101';//5
 	  binarytodecimal();
 }
-if(image3.src.match("off") &&  image2.src.match("on") && image1.src.match("on") && image0.src.match("off"))
+if(image3.getAttribute('src')=="./images/off.png" &&  image2.getAttribute('src')=="./images/on.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/off.png")
 {//6
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
 		//resln=(rf/r1)*(vref*b0_0/8);//weighting of LSB  
@@ -196,7 +196,7 @@ if(image3.src.match("off") &&  image2.src.match("on") && image1.src.match("on") 
 document.getElementById("binaryinp").value = '0110';	 //6
  binarytodecimal();
 }
-if(image3.src.match("off") &&  image2.src.match("on") && image1.src.match("on") && image0.src.match("on"))
+if(image3.getAttribute('src')=="./images/off.png" &&  image2.getAttribute('src')=="./images/on.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/on.png")
 {//7
 	//alert(b0_0);
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
@@ -208,7 +208,7 @@ if(image3.src.match("off") &&  image2.src.match("on") && image1.src.match("on") 
 document.getElementById("binaryinp").value = '0111';	 //7
  binarytodecimal();
 }
-if(image3.src.match("on") &&  image2.src.match("off") && image1.src.match("off") && image0.src.match("off"))
+if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/off.png" && image0.getAttribute('src')=="./images/off.png")
 {//8
 	//alert(b0_0);
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
@@ -220,7 +220,7 @@ if(image3.src.match("on") &&  image2.src.match("off") && image1.src.match("off")
 	 document.getElementById("binaryinp").value = '1000';//8
 	  binarytodecimal();
 }
-if(image3.src.match("on") &&  image2.src.match("off") && image1.src.match("off") && image0.src.match("on"))
+if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/off.png" && image0.getAttribute('src')=="./images/on.png")
 {//9
 	//alert(b0_0);
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
@@ -233,7 +233,7 @@ document.getElementById("binaryinp").value = '1001';	//9
  binarytodecimal();
 }
 
-if(image3.src.match("on") &&  image2.src.match("off") && image1.src.match("on") && image0.src.match("off"))
+if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/off.png")
 {//10
 	//alert(b0_0);
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
@@ -246,7 +246,7 @@ document.getElementById("binaryinp").value = '1010';	//10
  binarytodecimal();
 }
 
-if(image3.src.match("on") &&  image2.src.match("off") && image1.src.match("on") && image0.src.match("on"))
+if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/on.png")
 {//11
 	//alert(b0_0);
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
@@ -259,7 +259,7 @@ if(image3.src.match("on") &&  image2.src.match("off") && image1.src.match("on") 
 	  binarytodecimal();
 }
 
-if(image3.src.match("on") &&  image2.src.match("on") && image1.src.match("off") && image0.src.match("off"))
+if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/on.png" && image1.getAttribute('src')=="./images/off.png" && image0.getAttribute('src')=="./images/off.png")
 {//12
 	//alert(b0_0);
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
@@ -272,7 +272,7 @@ resln=(vref/16);//weighting of LSB
 	  binarytodecimal();
 }
 
-if(image3.src.match("on") &&  image2.src.match("off") && image1.src.match("on") && image0.src.match("on"))
+if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/on.png")
 {//13
 	//alert(b0_0);
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
@@ -285,7 +285,7 @@ resln=(vref/16);//weighting of LSB
 	  binarytodecimal();
 }
 
-if(image3.src.match("on") &&  image2.src.match("on") && image1.src.match("on") && image0.src.match("off"))
+if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/on.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/off.png")
 {//14
 	//alert(b0_0);
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
@@ -297,7 +297,7 @@ if(image3.src.match("on") &&  image2.src.match("on") && image1.src.match("on") &
 	 document.getElementById("binaryinp").value = '1110';//14
 	  binarytodecimal();
 }
-if(image3.src.match("on") &&  image2.src.match("on") && image1.src.match("on") && image0.src.match("on"))
+if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/on.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/on.png")
 {//15
 	//alert(b0_0);
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
