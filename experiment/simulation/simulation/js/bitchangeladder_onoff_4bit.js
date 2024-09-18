@@ -252,7 +252,7 @@ if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=
 	  binarytodecimal();
 }
 
-if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/on.png")
+if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/on.png" && image1.getAttribute('src')=="./images/off.png" && image0.getAttribute('src')=="./images/on.png")
 {//13
 	//alert(b0_0);
 		vo=(rf/r1)*(vref/16)*((b0_0*1)+(b1_1*2)+(b2_2*4)+(b3_3*8));
