@@ -16,7 +16,7 @@ L1-L5, L4-L6, L3-L5.(For eg. click on 1 and then drag to 5 and so on.)
 
 <div align="center">
 <img src="images/3bitbwr_prc.png" width="50%">
-<p>3 bit Binary Weighted Resistors</p>
+<p>Fig 1: 3 bit Binary Weighted Resistors</p>
 </div>
 
 
@@ -36,7 +36,7 @@ L1-L5, L4-L6, L3-L5.(For eg. click on 1 and then drag to 5 and so on.)
 
 <div align="center">
 <img src="images/4bitbwr_prc.png" width="50%">
-<p>4 bit Binary Weighted Resistors</p>
+<p>Fig 2: 4 bit Binary Weighted Resistors</p>
 </div>
 
 - **4 bit Binary Ladder**
@@ -55,5 +55,5 @@ L1-L5, L4-L6, L3-L5, L9-L12.(For eg. click on 1 and then drag to 5 and so on.)
 
 <div align="center">
 <img src="images/4bitbl_prc.png" width="50%">
-<p>4 bit Binary Ladder</p>
+<p>Fig 3: 4 bit Binary Ladder</p>
 </div>
