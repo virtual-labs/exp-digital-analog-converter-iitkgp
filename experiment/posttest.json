@@ -2,37 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "A DAC converts an digital input signal to a analog output.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "True",
+        "b": "False"
+        
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The equivalent weight of LSB in a four-bit variable resistive divider D/A converter is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1/16",
+        "b": "1/15",
+        "c": "1/8",
+        "d": "8/15"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is used to represent the signed magnitude?",
+      "answers": {
+        "a": "MSB",
+        "b": "LSB",
+        "c": "None of the above"
+        
       },
-      "correctAnswer": "c",
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Determine the resolution and full scale output of 4-bit weighted resistor DAC with a reference of 10 volts.",
+      "answers": {
+        "a": "Resolution=1.25 V, Full scale voltage=18.75 V",
+        "b": " Resolution=2.5 V, Full scale voltage=18.75 V",
+        "c": "Resolution=5 V, Full scale voltage=18.25 V",
+        "d": "Resolution=2.5, Full scale voltage=18.75 V"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A 4-bit R/2R digital-to-analog (DAC) converter has a reference of 5 volts. What is the analog output for the input code (B<sub>3</sub>, B<sub>2</sub>, B<sub>1</sub>, B<sub>0</sub>) = 0010.",
+      "answers": {
+        "a": "0.625",
+        "b": "0.765",
+        "c": "0.938",
+        "d": "-0.938"
+      },
+     
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
