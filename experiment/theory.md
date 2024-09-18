@@ -20,7 +20,7 @@ A weighted resistor DAC produces an analog output, which is almost equal to the 
 
 <div align="center">
 <img src="images/3bitbwr_th.png" width="50%">
-<p>Figure 1</p>
+<p>Figure 2</p>
 </div>
 
 The bits of a binary number can have only one of the two values. i.e., either 0 or 1. Let the 3-bit binary input is b<sub>2</sub>b<sub>1</sub>b<sub>0</sub>. Here, the bits b<sub>2</sub> and b<sub>0</sub> denote the Most Significant Bit (MSB) and Least Significant Bit (LSB) respectively. The digital switches shown in the above figure will be connected to ground, when the corresponding input bits are equal to ‘0’. Similarly, the digital switches shown in the above figure will be connected to the negative reference voltage, −VR when the corresponding input bits are equal to ‘1’. In the above circuit, the non-inverting input terminal of an op-amp is connected to ground. That means zero volts is applied at the non-inverting input terminal of op-amp. According to the virtual short concept, the voltage at the inverting input terminal of opamp is same as that of the voltage present at its non-inverting input terminal. So, the voltage at the inverting input terminal’s node will be zero volts. The nodal equation at the inverting input terminal’s node is:
@@ -40,7 +40,7 @@ The R-2R Ladder DAC overcomes the disadvantages of a binary weighted resistor DA
 
 <div align="center">
 <img src="images/4bitbl_th.png" width="50%">
-<p>Figure 1</p>
+<p>Figure 3</p>
 </div>
 
 The bits of a binary number can have only one of the two values. i.e., either 0 or 1. Let the 3-bit binary input is b<sub>2</sub>b<sub>1</sub>b<sub>0</sub>. Here, the bits b<sub>2</sub> and b<sub>0</sub> denote the Most Significant Bit (MSB) and Least Significant Bit (LSB) respectively. The digital switches shown in the above figure will be connected to ground, when the corresponding input bits are equal to ‘0’. Similarly, the digital switches shown in above figure will be connected to the negative reference voltage, −VR when the corresponding input bits are equal to ‘1’. It is difficult to get the generalized output voltage equation of a R-2R Ladder DAC. But, we can find the analog output voltage values of R-2R Ladder DAC for individual binary input combinations easily.
