@@ -1,24 +1,25 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Electronics and Communication and Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b>  Analog Electronics Circuits Virtual Laboratory
+<b> Experiment|     <b> Digital to analog converter
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
-
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+### Project Principal Investigator
+<b>Name | <b> **Prof. C.S.Kumar**
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  **Indian Institute of Technology Kharagpur**
+<b> Email id|     <b>  **kumar@mech.iitkgp.ac.in**
+<b> Department |  **Department of Mechanical Engineering**
+<b>Webpage| <b> [http://facweb.iitkgp.ac.in/~cskumar/](http://facweb.iitkgp.ac.in/~cskumar/)
+
 
 ### Contributors List
 
-SrNo | Name | Faculty or Student | Department| Institute | Email id
+SrNo | Name | Developer and Integration Engineer | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | **Sukriti Dhang** | Developer | Department of Mechanical Engineering | IIT Kharagpur | sukritid05@gmail.com |
+2 | **Prakriti Dhang** | Integration | Department of Mechanical Engineering | IIT Kharagpur | prakritidhang05@gmail.com |

@@ -60,10 +60,10 @@ function textChangerf() {
 function changeImageb3_3() {
   image3 = document.getElementById('b3_3');
   if (image3.src.match("off")) {
-    image3.src = "./image/on.png";
+    image3.src = "./images/on.png";
 	 b3_3=1;
   } else {
-    image3.src = "./image/off.png";
+    image3.src = "./images/off.png";
 	b3_3=0;
   }
   switchchange();
@@ -73,10 +73,10 @@ function changeImageb3_3() {
 function changeImageb2_2() {
    image2 = document.getElementById('b2_2');
   if (image2.src.match("off")) {
-    image2.src = "./image/on.png";
+    image2.src = "./images/on.png";
 	 b2_2=1;
   } else {
-    image2.src = "./image/off.png";
+    image2.src = "./images/off.png";
 	b2_2=0;
   }
   switchchange();
@@ -85,11 +85,11 @@ function changeImageb2_2() {
 function changeImageb1_1() {
    image1 = document.getElementById('b1_1');  
   if (image1.src.match("off")) {
-    image1.src = "./image/on.png";
+    image1.src = "./images/on.png";
 	 b1_1=1;
 
   } else {
-    image1.src = "./image/off.png";
+    image1.src = "./images/off.png";
 	b1_1=0;
   }
   switchchange();
@@ -98,10 +98,10 @@ function changeImageb1_1() {
 function changeImageb0_0() {
    image0 = document.getElementById('b0_0'); 
   if (image0.src.match("off")) {
-    image0.src = "./image/on.png";
+    image0.src = "./images/on.png";
 	 b0_0=1;
   } else {
-    image0.src = "./image/off.png";
+    image0.src = "./images/off.png";
 	b0_0=0;
   }
   switchchange();
