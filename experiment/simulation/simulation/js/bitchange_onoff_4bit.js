@@ -272,7 +272,7 @@ resln=(vref/16);//weighting of LSB
 	  binarytodecimal();
 }
 
-if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/off.png" && image1.getAttribute('src')=="./images/on.png" && image0.getAttribute('src')=="./images/on.png")
+if(image3.getAttribute('src')=="./images/on.png" &&  image2.getAttribute('src')=="./images/on.png" && image1.getAttribute('src')=="./images/off.png" && image0.getAttribute('src')=="./images/on.png")
 {//13
 	//alert(b0_0);
 		vo=(rf/r1)*((vref*b3_3/1)+(vref*b2_2/2)+(vref*b1_1/4)+(vref*b0_0/8));
