@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "A DAC converts an digital input signal to a analog output.",
+      "question": "1. A DAC converts an digital input signal to a analog output.",
       "answers": {
         "a": "True",
         "b": "False"
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The equivalent weight of LSB in a four-bit variable resistive divider D/A converter is",
+      "question": "2. The equivalent weight of LSB in a four-bit variable resistive divider D/A converter is",
       "answers": {
         "a": "1/16",
         "b": "1/15",
@@ -25,7 +25,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is used to represent the signed magnitude?",
+      "question": "3. What is used to represent the signed magnitude?",
       "answers": {
         "a": "MSB",
         "b": "LSB",
@@ -37,7 +37,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Determine the resolution and full scale output of 4-bit weighted resistor DAC with a reference of 10 volts.",
+      "question": "4.Determine the resolution and full scale output of 4-bit weighted resistor DAC with a reference of 10 volts.",
       "answers": {
         "a": "Resolution=1.25 V, Full scale voltage=18.75 V",
         "b": " Resolution=2.5 V, Full scale voltage=18.75 V",
@@ -49,7 +49,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "A 4-bit R/2R digital-to-analog (DAC) converter has a reference of 5 volts. What is the analog output for the input code (B<sub>3</sub>, B<sub>2</sub>, B<sub>1</sub>, B<sub>0</sub>) = 0010.",
+      "question": "5. A 4-bit R/2R digital-to-analog (DAC) converter has a reference of 5 volts. What is the analog output for the input code (B<sub>3</sub>, B<sub>2</sub>, B<sub>1</sub>, B<sub>0</sub>) = 0010.",
       "answers": {
         "a": "0.625",
         "b": "0.765",
