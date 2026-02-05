@@ -173,8 +173,10 @@ document.getElementById("binaryinp").value = '110';	 //6
 }
 if(  image2.src.match("on") && image1.src.match("on") && image0.src.match("on"))
 {//7
+	
 	//alert(b0_0);
 		vo=(rf/r1)*(vref/8)*((b0_0*1)+(b1_1*2)+(b2_2*4));
+		
 		resln=(vref/8);//weighting of LSB 
 		
 	document.getElementById("voutput").value = vo.toPrecision(3);//volt 
