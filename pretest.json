@@ -1,0 +1,64 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Analog signals have continuous electrical signals.",
+      "answers": {
+        "a": "False",
+        "b": "True"
+       
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Analog signal is represented by ___________",
+      "answers": {
+        "a": "Square Wave",
+        "b": "Triangle Wave",
+        "c": "Sine Wave"
+       
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. A 4-bit R/2R digital-to-analog (DAC) converter has a reference of 5 volts. What is the analog output for the input code (B<sub>3</sub>, B<sub>2</sub>, B<sub>1</sub>, B<sub>0</sub>) = 0011.",
+      "answers": {
+        "a": "9.125",
+        "b": "0.765",
+        "c": "0.938",
+        "d": " -0.938"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Determine the resolution and full scale output of 4-bit weighted resistor DAC with a reference of 10 volts.",
+      "answers": {
+        "a": "Resolution=1.25 V, Full scale voltage=18.75 V",
+        "b": "Resolution=2.5 V, Full scale voltage=18.75 V",
+        "c": "Resolution=5 V, Full scale voltage=18.25 V",
+        "d": "Resolution=2.5, Full scale voltage=18.75 V"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The two ways of representing the 0 with signed magnitude representation is",
+      "answers": {
+        "a": "+0 and +0",
+        "b": "-0 and +0",
+        "c": "-0 and -0",
+        "d": "None of the above"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
